@@ -1,2 +1,26 @@
-# Auto detect text files and perform LF normalization
+# Автоопределение текстовых файлов
 * text=auto
+
+# Python файлы (CSRF скрипты)
+*.py text eol=lf
+
+# Документация
+*.md text eol=lf
+*.txt text eol=lf
+
+# Конфигурации
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Веб файлы
+*.html text
+*.css text
+*.js text eol=lf
+
+# Бинарные файлы (не трогать!)
+*.pdf binary
+*.docx binary
+*.png binary
+*.jpg binary
+*.zip binary
